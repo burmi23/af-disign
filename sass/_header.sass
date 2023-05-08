@@ -1,17 +1,20 @@
 .header
-  padding-top: 33px
-  padding-bottom: 41px
+  padding-top: 42px
+  padding-bottom: 21px
 
 .header__container
+  // position: relative
+
+.header__nav-wrap
   display: flex
-  // justify-content: space-between
-  justify-content: flex-start
   align-items: center
 
 .header__logo-link
+  position: relative
   display: flex
   outline: none
   margin-right: 154px
+  z-index: 110
 
 .header__nav
   // margin-right: 223px
@@ -63,7 +66,7 @@
   .header__logo-link
     margin-right: 0
 
-  .header__container
+  .header__nav-wrap
     justify-content: space-between
 
 @media (max-width: 900px)
@@ -75,17 +78,22 @@
     position: absolute
     right: 0
     top: 0
-    width: 50%
-    height: 100vh
-    padding: 50px
-    padding-top: 100px
+    // width: 50%
+    width: 100%
+    // height: 100vh
+    height: 50vh
+    padding: 30px
+    padding-top: 150px
     background-color: #fff
     box-shadow: 0 0 25px #888
     overflow-y: auto
-    transform: translateX(120%)
+    // transform: translateX(120%)
+    transform: translateY(-120%)
+    // transform: scale(0)
+    // opacity: 0
     visibility: hidden
     z-index: 100
-    // transition: transform .3s ease-in-out, visibility .3s ease-in-out
+    transition: transform .3s ease-in-out
 
   .header__nav .nav__list
     flex-direction: column
@@ -94,6 +102,7 @@
 
   .header__nav--active
     visibility: visible
+    opacity: 1
     transform: none
 
   .stop-scroll
