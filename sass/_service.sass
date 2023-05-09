@@ -1,0 +1,107 @@
+.service
+  padding-top: 35px
+  padding-bottom: 35px
+
+
+.service__title
+  margin-bottom: 49px
+
+.service__list
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  gap: 55px 22px
+
+.service__item
+  display: flex
+  flex-direction: column
+  width: 371px
+  min-height: 651px
+  background: #FFFFFF
+  border: 1px solid #DFE1E8
+  border-radius: 3px
+
+.service__item-top
+  flex: 0 0 330px
+  position: relative
+  overflow: hidden
+
+.service__item-bottom
+  display: flex
+  flex-direction: column
+  flex: 1 0 auto
+  padding: 16px 19px
+
+.service__item-img
+  display: block
+  height: 100%
+  width: 100%
+
+.service__item-decsr
+  height: 50%
+  // display: flex
+  // flex-direction: column
+  // justify-content: space-between
+  padding: 16px 19px
+
+.service__item-title
+  margin-bottom: 11px
+  font-weight: 700
+  font-size: 25px
+  line-height: 30px
+  color: #000000
+
+.service__item-text
+  // min-height: 100px
+  margin-bottom: 45px
+  font-weight: 510
+  font-size: 17px
+  line-height: 20px
+  color: #828282
+
+.service__item-price
+  display: block
+  margin-bottom: 25px
+  margin-top: auto
+  font-weight: 510
+  font-size: 35px
+  line-height: 42px
+  color: #000000
+
+.service__btn
+  padding: 14px 31px
+  width: 333px
+  min-height: 48px
+  background: #3A9AFF
+  border-radius: 3px
+  border: none
+
+// MEDIA---------
+
+@media (max-width: 800px)
+  .service
+    padding-top: 20px
+
+@media (max-width: 428px)
+  .service__item
+    max-width: 300px
+    min-height: 0
+
+  .service__btn
+    max-width: 100%
+    margin: 0 auto
+    font-weight: 510
+    font-size: 15px
+
+  .service__item-top
+    flex: 0 0 255px
+
+  .service__item-text
+    font-weight: 510
+    font-size: 15px
+    margin-bottom: 20px
+  // .service__item-price
+  //   margin-bottom: 10px
+
+  .service__item-price
+    font-size: 25px

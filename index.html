@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
 
 
@@ -19,7 +19,7 @@
 
       <div class="header__nav-wrap">
 
-        <a href="#" class="header__logo-link">
+        <a class="header__logo-link" href="#">
           <img class="header__logo" src="icons/AF Design.svg" alt="logo">
         </a>
         <button class="header__burger" type="button">
@@ -32,25 +32,25 @@
         <nav class="header__nav nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__item-link">Главная</a>
+              <a class="nav__item-link" href="#">Главная</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__item-link">Портфолио</a>
+              <a class="nav__item-link" href="#">Портфолио</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__item-link">Услуги</a>
+              <a class="nav__item-link" href="#">Услуги</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__item-link">Отзывы</a>
+              <a class="nav__item-link" href="#">Отзывы</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__item-link">О нас</a>
+              <a class="nav__item-link" href="#">О нас</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__item-link">Контакты</a>
+              <a class="nav__item-link" href="#">Контакты</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__item-link">Магазин шаблонов</a>
+              <a class="nav__item-link" href="#">Магазин шаблонов</a>
             </li>
           </ul>
         </nav>
@@ -84,21 +84,125 @@
     <div class="container">
       <h2 class="reason__title title-reset">Вам точно подойдут услуги нашей студии, если:</h2>
 
-        <ul class="reason__list list-reset">
-          <li class="reason__item">
-            <div class="reason__img-block"></div>
-            <div class="reason__descr">Нужно упаковать бизнеси получить новых клиентов</div>
-          </li>
-          <li class="reason__item">
-            <div class="reason__img-block"></div>
-            <div class="reason__descr">Нужно увеличить трафик заказов</div>
-          </li>
-          <li class="reason__item">
-            <div class="reason__img-block"></div>
-            <div class="reason__descr">Рекламный бюджет уходит, а результата нет</div>
-          </li>
-        </ul>
+      <ul class="reason__list list-reset">
+        <li class="reason__item">
+          <div class="reason__img-block"></div>
+          <div class="reason__descr">Нужно упаковать бизнеси получить новых клиентов</div>
+        </li>
+        <li class="reason__item">
+          <div class="reason__img-block"></div>
+          <div class="reason__descr">Нужно увеличить трафик заказов</div>
+        </li>
+        <li class="reason__item">
+          <div class="reason__img-block"></div>
+          <div class="reason__descr">Рекламный бюджет уходит, а результата нет</div>
+        </li>
+      </ul>
 
+    </div>
+  </section>
+
+  <section class="service">
+    <div class="container">
+      <h2 class="section-title service__title title-reset">Услуги</h2>
+
+      <ul class="service__list list-reset">
+        <li class="service__item">
+
+          <div class="service__item-top">
+            <img class="service__item-img" src="img/service/taplink.png" alt="taplink">
+          </div>
+
+          <div class="service__item-bottom">
+            <h3 class="service__item-title title-reset">Taplink Tilda</h3>
+            <p class="service__item-text descr-reset">Простая страничка-визитка с кнопками для переходов в портфолио, прайс-лист, сайт, мессенджеры, социальные сети.
+            </p>
+            <span class="service__item-price">7 000 ₽ </span>
+            <button class="btn service__btn">Получить консультацию</button>
+          </div>
+
+
+
+        </li>
+        <li class="service__item">
+
+          <div class="service__item-top">
+            <img class="service__item-img" src="img/service/landing-tilda.png" alt="landing-tilda">
+          </div>
+
+
+          <div class="service__item-bottom">
+            <h3 class="service__item-title title-reset">Лендинг под ключ на Tilda</h3>
+            <p class="service__item-text descr-reset">Разработка одностраничного сайта для продажи услуги, продукта, курса или для того, чтобы вкратце ознакомить клиента с вашей компанией.</p>
+            <span class="service__item-price">15 000 ₽ </span>
+            <button class="btn service__btn">Получить консультацию</button>
+          </div>
+
+
+        </li>
+        <li class="service__item">
+
+          <div class="service__item-top">
+            <img class="service__item-img" src="img/service/eshop-tilda.png" alt="eshop-tilda">
+          </div>
+
+
+          <div class="service__item-bottom">
+            <h3 class="service__item-title title-reset">Интернет магазин Tilda</h3>
+            <p class="service__item-text descr-reset">Разработка интернет магазина для продажи ваших товаров и настройка эквайринга.</p>
+            <span class="service__item-price">20 000 ₽ </span>
+            <button class="btn service__btn">Получить консультацию</button>
+          </div>
+
+
+        </li>
+        <li class="service__item">
+
+          <div class="service__item-top">
+            <img class="service__item-img" src="img/service/landing-wordpress.png" alt="landing-wordpress">
+          </div>
+
+
+          <div class="service__item-bottom">
+            <h3 class="service__item-title title-reset">Landing page Wordpress</h3>
+            <p class="service__item-text descr-reset">Разработка одностраничного сайта для продажи услуги, продукта, курса или для того, чтобы вкратце ознакомить клиента с вашей компанией.</p>
+            <span class="service__item-price">35 000 ₽ </span>
+            <button class="btn service__btn">Получить консультацию</button>
+          </div>
+
+
+        </li>
+        <li class="service__item">
+
+          <div class="service__item-top">
+            <img class="service__item-img" src="img/service/eshop-wordpress.png" alt="eshop-wordpress">
+          </div>
+
+
+          <div class="service__item-bottom">
+            <h3 class="service__item-title title-reset">Интернет магазин Wordpress</h3>
+            <p class="service__item-text descr-reset">Разработка интернет магазина для продажи ваших товаров и настройка эквайринга.</p>
+            <span class="service__item-price">60 000 ₽ </span>
+            <button class="btn service__btn">Получить консультацию</button>
+          </div>
+
+
+        </li>
+        <li class="service__item">
+
+          <div class="service__item-top">
+            <img class="service__item-img" src="img/service/social.png" alt="social">
+          </div>
+
+
+          <div class="service__item-bottom">
+            <h3 class="service__item-title title-reset">Оформление социальных сетей</h3>
+            <p class="service__item-text descr-reset">Разработка одностраничного сайта для продажи услуги, продукта, курса или для того, чтобы вкратце ознакомить клиента с вашей компанией.</p>
+            <span class="service__item-price">5 000 ₽ </span>
+            <button class="btn service__btn">Получить консультацию</button>
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
 
